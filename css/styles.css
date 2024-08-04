@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-image: url(/img/header.jpg);
+    background-image: url(/img/headerbackground.jpg);
     background-size: cover;
     color: black;
 }
@@ -53,13 +53,16 @@ a:visited {
 }
 footer {
     position: relative;
-    background-image: url(/img/fullbloom.png);
+    background-image: url(/img/footerbackground.png);
     background-size: cover;
     z-index: 100;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+footer p {
+    font-weight: bold;
 }
 .socialmediaul {
     list-style: none;
