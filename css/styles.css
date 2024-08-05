@@ -29,11 +29,12 @@ header {
     font-family: "Caveat", cursive;
     font-size: 50px;
 }
-.nav_links {
+.navbar-nav {
     list-style: none;
+    background-color: rgba(243, 187, 84, 0.925);
 }
 
-.nav_links li {
+.nav-item {
     display: inline-block;
     padding: 0 1.5rem 0 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
