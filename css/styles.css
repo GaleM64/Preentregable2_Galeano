@@ -34,7 +34,6 @@ header {
     list-style: none;
     background-color: rgba(243, 187, 84, 0.925);
 }
-
 .nav-item {
     display: inline-block;
     padding: 0 1.5rem 0 1rem;
@@ -93,7 +92,7 @@ footer p {
 }
 @media screen and (max-width:992px) {
     header {
-    min-height: 75px;
+        min-height: 75px;
     }
     .title {
         font-size: 35px;
@@ -123,8 +122,8 @@ footer p {
         padding-top: 56.25%
     }
     .embed-responsive-item {
-        width: 373px;
-        height: 210px;
+        width: 405px;
+        height: 225px;
     }
     footer {
         min-height: 55px;
