@@ -63,6 +63,10 @@ h2 {
     width: 560px;
     height: 315px;
 }
+.thumbnail {
+    width: 100px;
+    height: 70px;
+}
 body {
     background-color: #F5EBDC;
 }
