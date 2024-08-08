@@ -46,7 +46,7 @@
     </header>
     <br>
     <main>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-touch="false" pause="false">
             <div class="carousel-inner">
                 <div class="carousel-item carousel-image bg-img-1 active">
                 </div>
@@ -54,8 +54,42 @@
                 </div>
                 <div class="carousel-item carousel-image bg-img-3">
                 </div>
+                <div class="carousel-item carousel-image bg-img-4">
+                </div>
+                <div class="carousel-item carousel-image bg-img-5">
+                </div>
             </div>
         </div>
+        <form>
+            <div class="form-group">
+                <label >Nombre y Apellido</label>
+                <input type="text" class="form-control" placeholder="Carlos Carlos" required/>
+            </div>
+            <div class="form-group">
+                <label >Email</label>
+                <input type="email" class="form-control" placeholder="Ingrese su Email" required/>
+            </div>
+            <div class="form-group">
+                <p>Cual es su consulta?</p>
+                <select class="form-control" required>
+                    <option disabled selected value>Seleccione una opcion</option>
+                    <option value="adopcion">Adopción</option>
+                    <option value="servicios">Servicio/s</option>
+                    <option value="blog">Blog</option>
+                    <option value="donaciones">Donaciones/Trabajo Voluntario</option>
+                    <option value="otros">Comentarios/Sugerencias</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Describa su consulta</p>
+                <textarea class="input-textarea" placeholder="Me gustaria saber de..."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="submit-button send">
+                    Enviar
+                </button>
+            </div>
+        </form>
     </main>
     <br>
     <footer class="mt-auto">
