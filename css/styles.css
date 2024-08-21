@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5EBDC;
+}
+
 header {
   position: relative;
   z-index: 100;
@@ -10,16 +20,14 @@ header {
   background-size: cover;
   color: black;
 }
-
-.logo1 {
+header .logo1 {
   flex-shrink: 1;
   margin-left: 1.5rem;
   margin-right: 8px;
   height: 90px;
   width: auto;
 }
-
-.title {
+header .title {
   flex-grow: 1;
   cursor: default;
   width: 50px;
@@ -27,13 +35,11 @@ header {
   font-family: "Caveat", cursive;
   font-size: 50px;
 }
-
-.navbar-nav {
+header .navbar-nav {
   list-style: none;
   background-color: #FFD4C0;
 }
-
-.nav-item {
+header .nav-item {
   display: inline-block;
   padding: 0 1.5rem 0 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -42,25 +48,18 @@ header {
   font-weight: 600;
 }
 
-body {
-  background-color: #F5EBDC;
-}
-
 main {
   position: relative;
 }
-
-.col {
+main .col {
   font-size: 23px;
   margin-top: 10%;
   font-family: "Open Sans", sans-serif;
 }
-
-h2 {
+main .col h2 {
   text-align: center;
 }
-
-.embed-responsive-item {
+main .embed-responsive-item {
   width: 560px;
   height: 315px;
 }
@@ -72,34 +71,24 @@ form {
   top: 5%;
   left: 25%;
 }
-
-label {
+form .form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+  background-color: #F5EBDC;
+}
+form .form-group label {
   display: flex;
   align-items: center;
   font-size: 1.125rem;
   margin-bottom: 0.5rem;
 }
-
-input, button, select, textarea {
+form .form-group input, form .form-group button, form .form-group select, form .form-group textarea {
   margin: 0;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
-
-.clue {
-  margin-left: 0.25rem;
-  font-size: 0.9rem;
-  color: #e4e4e4;
-}
-
-.form-group {
-  margin: 0 auto 1.25rem auto;
-  padding: 0.25rem;
-  background-color: #F5EBDC;
-}
-
-.form-control {
+form .form-group .form-control {
   display: block;
   width: 100%;
   height: 2.375rem;
@@ -111,22 +100,13 @@ input, button, select, textarea {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-
-.input-radio, .input-checkbox {
-  display: inline-block;
-  margin-right: 0.625rem;
-  min-height: 1.25rem;
-  min-width: 1.25rem;
-}
-
-.input-textarea {
+form .form-group .input-textarea {
   min-height: 120px;
   width: 100%;
   padding: 0.625rem;
   resize: vertical;
 }
-
-.submit-button {
+form .form-group .submit-button {
   display: block;
   width: 100%;
   padding: 0.75rem;
@@ -135,8 +115,7 @@ input, button, select, textarea {
   border-radius: 2px;
   cursor: pointer;
 }
-
-.send:hover {
+form .form-group .send:hover {
   background: #ff9800;
   color: white;
 }
@@ -178,17 +157,14 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-
-footer p {
+footer footer p {
   font-weight: bold;
   margin-top: 15px;
 }
-
-.logo2 {
+footer .logo2 {
   height: 55px;
 }
-
-.socialmediaul {
+footer .socialmediaul {
   list-style: none;
   text-decoration: none;
   display: flex;
@@ -196,8 +172,7 @@ footer p {
   position: relative;
   gap: 5px;
 }
-
-.socialimg {
+footer .socialmediaul .socialimg {
   height: 40px;
   margin-top: 15px;
 }
@@ -235,7 +210,7 @@ a:visited {
   header {
     min-height: 75px;
   }
-  .title {
+  header .title {
     font-size: 35px;
     margin-left: auto;
     margin-right: auto;
@@ -244,7 +219,7 @@ a:visited {
     top: 25px;
     left: 45px;
   }
-  .logo1 {
+  header .logo1 {
     position: absolute;
     left: 0;
     top: 0;
@@ -271,13 +246,13 @@ a:visited {
   footer {
     min-height: 55px;
   }
-  .logo2 {
-    height: 50px;
-  }
-  .socialimg {
+  footer footer p {
     margin-top: 15px;
   }
-  footer p {
+  footer .logo2 {
+    height: 50px;
+  }
+  footer .socialimg {
     margin-top: 15px;
   }
 }

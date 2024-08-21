@@ -7,23 +7,23 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-footer p {
-    font-weight: bold;
-    margin-top: 15px
-}
-.logo2 {
-    height: 55px;
-}
-.socialmediaul {
-    list-style: none;
-    text-decoration:none;
-    display:flex;  
-    float:right;
-    position: relative;
-    gap: 5px;
-}
-.socialimg { 
-    height: 40px;
-    margin-top: 15px
+    footer p {
+        font-weight: bold;
+        margin-top: 15px
+    }
+    .logo2 {
+        height: 55px;
+    }
+    .socialmediaul {
+        list-style: none;
+        text-decoration:none;
+        display:flex;  
+        float:right;
+        position: relative;
+        gap: 5px;
+        .socialimg { 
+            height: 40px;
+            margin-top: 15px
+        }
+    }
 }
