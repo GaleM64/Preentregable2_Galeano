@@ -1,0 +1,50 @@
+@media screen and (max-width:992px) {
+    header {
+        min-height: 75px;
+    }
+    .title {
+        font-size: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        position: relative;
+        top: 25px;
+        left: 45px;
+    }
+    .logo1 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 1;
+        display: block;
+        margin: auto;
+        height: 45px;
+    }
+    col {
+        margin-top: 5%;
+        font-size: medium;
+        position: relative;
+        width: 100%;
+        padding-top: 56.25%
+    }
+    .embed-responsive-item {
+        width: 405px;
+        height: 225px;
+    }
+    form {
+        padding: 2.5rem;
+        }
+    footer {
+        min-height: 55px;
+    }
+    .logo2 {
+        height: 50px;
+    }
+    .socialimg {
+        margin-top: 15px;
+    }
+    footer p {
+        margin-top: 15px;
+    }
+} 

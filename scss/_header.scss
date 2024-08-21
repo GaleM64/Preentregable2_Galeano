@@ -1,0 +1,39 @@
+header {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    min-height: 95px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(../img/headerbackground.jpg);
+    background-size: cover;
+    color: black;
+}
+.logo1 {
+    flex-shrink: 1;
+    margin-left: 1.5rem;
+    margin-right: 8px;
+    height: 90px;
+    width: auto;
+} 
+.title {
+    flex-grow: 1;
+    cursor: default;
+    width: 50px;
+    top: 8px;
+    font-family: "Caveat", cursive;
+    font-size: 50px;
+}
+.navbar-nav {
+    list-style: none;
+    background-color: #FFD4C0;
+}
+.nav-item {
+    display: inline-block;
+    padding: 0 1.5rem 0 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    background-color: rgba(255, 166, 0, 0.267);
+    font-weight: 600;
+    }

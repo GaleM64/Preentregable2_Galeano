@@ -1,0 +1,26 @@
+a:link {
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(112, 45, 20);
+}
+.himg {
+    text-decoration: none;
+}
+.himg:link {
+    color: black;
+}
+.himg:hover {
+    text-decoration: none;
+    cursor: text;
+}
+.himg:visited {
+    color: black;
+}
+.send:hover {
+    background: #ff9800;
+    color: white;
+}
