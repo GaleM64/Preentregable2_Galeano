@@ -20,6 +20,11 @@
             margin: auto;
             height: 45px;
         }
+        .navbar-collapse {
+            position: absolute;
+            margin-left: -110px;
+            top: 95%;
+        }
     }
     col {
         margin-top: 5%;
