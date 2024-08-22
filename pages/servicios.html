@@ -9,15 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <header>
         <div>
                 <img class="logo1" src="../img/catlogo.png" alt="site logo">
         </div>
-        <h1 class="title"> Reino Gatuno
-        </h1>
-        <nav class="navbar navbar-expand-md">
+        <h1 class="title"> Reino Gatuno</h1>
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar">
                     <span class="navbar-toggler-icon"></span>
@@ -45,7 +47,43 @@
         </nav>
     </header>
     <br>
-    <main>
+    <main class="container overflow-auto">
+        <div class="row">
+            <div class="col">
+                <h2 class="animate__animated animate__fadeInLeft">Adopciones</h2>
+                <p data-aos="fade-right">¿Interesad@ en adoptar a algún gato? Este es el lugar correcto. Busca en nuestro blog o redes alguno que se adapte a lo que busques ya sea por su edad, género, apariencia o comportamiento. La mayoría castrados, desparasitados y vacunados así que solo tienes que poner un buen hogar y cariño de tu parte.</p>
+            </div>
+            <div class="col">
+                <img class="imgserv" data-aos="flip-right" src="../img/chicacongatito.png" alt="chica con un gato">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 class="animate__animated animate__fadeInLeft">Veterinaria</h2>
+                <p data-aos="fade-right">Contamos con algunos profesionales de la salud animal asociados para atender a tu minino si es que no se siente bien o quieres hacerle un chequeo para asegurarse que no tenga ningún problema que afecte a su estilo de vida. </p>
+            </div>
+            <div class="col">
+                <img class="imgserv" data-aos="flip-right" src="../img/veterinarioygatito.jpg" alt="un gatito con un veterinario">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 class="animate__animated animate__fadeInLeft">Peluqueria</h2>
+                <p data-aos="fade-right">¿Para gatos? Sí, quizás el tuyo necesite un corte de pelo, de uñas o incluso un baño si crees que lo necesita y no te sientes seguro de hacerlo tu mismo, confía en nuestro personal y volverá hecho una hermosura a tu casa.</p>
+            </div>
+            <div class="col">
+                <img class="imgserv" data-aos="flip-right" src="../img/peinandoelmichi.jpg" alt="peluquera peinando un gato">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 class="animate__animated animate__fadeInLeft">Tránsito</h2>
+                <p data-aos="fade-right">¿Tienes que irte de viaje y no puedes llevártelo contigo y no tienes quien lo cuide? No te preocupes, puedes dejarlo en algún hogar de tránsito de personas de confianza que se encargaran lo mejor posible de tu mascota. Si te gustan los gatos y eres comprometido puedes postularte para formar parte de este grupo.</p>
+            </div>
+            <div class="col">
+                <img class="imgserv" data-aos="flip-right" src="../img/jugandoconelgato.png" alt="joven jugando con un gato">
+            </div>
+        </div>
     </main>
     <br>
     <footer class="mt-auto">
@@ -62,5 +100,8 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

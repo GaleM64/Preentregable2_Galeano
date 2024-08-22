@@ -1,11 +1,15 @@
 main {
     position: relative;
     .col {
-        font-size: 23px;
+        font-size: 22px;
         margin-top: 10%;
         font-family: "Open Sans", sans-serif;
         h2 {
             text-align: center;
+        }
+        .imgserv {
+            width: 560px;
+            height: 325px;
         }
     }
     .embed-responsive-item {

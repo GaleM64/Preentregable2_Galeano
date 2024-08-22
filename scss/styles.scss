@@ -4,12 +4,11 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #F5EBDC;
+    background-image: linear-gradient(to bottom, #F5EBDC,#facb85)
 }
 
 @import "header";
 @import "main";
-@import "embed";
 @import "form";
 @import "carousel";
 @import "footer";
