@@ -44,22 +44,46 @@ header .nav-item {
   font-weight: 600;
 }
 
-main {
+.notfound {
+  background-color: black;
+  margin-top: 25dvh;
+}
+.notfound h1 {
+  color: white;
+  font-size: 10vh;
+}
+.notfound h2 {
+  color: white;
+  font-size: 5vh;
+}
+.notfound p {
+  color: white;
+  font-size: 2vh;
+}
+.notfound img {
+  width: 75dvw;
+  height: auto;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #facb85, #f8deb7, #facb85);
+}
+body main {
   position: relative;
 }
-main .col {
+body main .col {
   font-size: 22px;
   margin-top: 10%;
   font-family: "Open Sans", sans-serif;
 }
-main .col h2 {
+body main .col h2 {
   text-align: center;
 }
-main .col .imgserv {
+body main .col .imgserv {
   width: 560px;
   height: 325px;
 }
-main .embed-responsive-item {
+body main .embed-responsive-item {
   width: 560px;
   height: 315px;
 }
@@ -206,27 +230,6 @@ a:visited {
 
 .himg:visited {
   color: black;
-}
-
-.notfound {
-  background-color: black;
-  margin-top: 25dvh;
-}
-.notfound h1 {
-  color: white;
-  font-size: 10vh;
-}
-.notfound h2 {
-  color: white;
-  font-size: 5vh;
-}
-.notfound p {
-  color: white;
-  font-size: 2vh;
-}
-.notfound img {
-  width: 75dvw;
-  height: auto;
 }
 
 @media screen and (max-width: 992px) {

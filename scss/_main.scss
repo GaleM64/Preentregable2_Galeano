@@ -1,19 +1,22 @@
-main {
-    position: relative;
-    .col {
-        font-size: 22px;
-        margin-top: 10%;
-        font-family: "Open Sans", sans-serif;
-        h2 {
-            text-align: center;
+body {
+    background-image: linear-gradient(to bottom, #facb85,#f8deb7,#facb85);
+    main {
+        position: relative;
+        .col {
+            font-size: 22px;
+            margin-top: 10%;
+            font-family: "Open Sans", sans-serif;
+            h2 {
+                text-align: center;
+            }
+            .imgserv {
+                width: 560px;
+                height: 325px;
+            }
         }
-        .imgserv {
+        .embed-responsive-item {
             width: 560px;
-            height: 325px;
+            height: 315px;
         }
-    }
-    .embed-responsive-item {
-        width: 560px;
-        height: 315px;
     }
 }
