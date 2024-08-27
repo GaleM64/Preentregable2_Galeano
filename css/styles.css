@@ -40,29 +40,52 @@ header .nav-item {
   padding: 0 1.5rem 0 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.2rem;
-  background-color: rgba(255, 166, 0, 0.267);
+  background-color: rgba(255, 166, 0, 0.2666666667);
   font-weight: 600;
 }
 
-body {
-  background-image: linear-gradient(to bottom, #facb85, #f8deb7, #facb85);
+.index, .contact, .servicios, .nosotros {
+  background-image: linear-gradient(to bottom, #FFD4C0, #f5b657, #FFD4C0);
 }
-body main {
+
+main {
   position: relative;
 }
-body main .col {
+main .col {
   font-size: 22px;
   margin-top: 10%;
   font-family: "Open Sans", sans-serif;
 }
-body main .col h2 {
+main .col h2 {
   text-align: center;
+  font-size: 2.5rem;
 }
-body main .col .imgserv {
+main .col h3 {
+  text-align: center;
+  font-size: 1.75rem;
+}
+main .col p {
+  font-size: 1.5rem;
+}
+main .col .ul1 {
+  list-style: decimal;
+}
+main .col .ul1 li {
+  font-weight: 600;
+  font-style: oblique;
+}
+main .col .ul2 {
+  list-style: circle;
+}
+main .col img {
+  width: 25vw;
+  height: auto;
+}
+main .col .imgserv {
   width: 560px;
   height: 325px;
 }
-body main .embed-responsive-item {
+main .col .embed-responsive-item {
   width: 560px;
   height: 315px;
 }
@@ -77,7 +100,7 @@ form {
 form .form-group {
   margin: 0 auto 1.25rem auto;
   padding: 0.25rem;
-  background-color: #F5EBDC;
+  background-color: #f8deb7;
   color: #000000;
 }
 form .form-group label {
@@ -98,7 +121,7 @@ form .form-group .form-control {
   height: 2.375rem;
   padding: 0.375rem 0.75rem;
   color: #000000;
-  background-image: linear-gradient(to bottom, #F5EBDC, #facb85);
+  background-image: linear-gradient(to bottom, #f8deb7, #f5b657);
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -121,7 +144,7 @@ form .form-group .submit-button {
   cursor: pointer;
 }
 form .form-group .send:hover {
-  background-image: linear-gradient(to top, #F5EBDC, #ff9800);
+  background-image: linear-gradient(to top, #f8deb7, #ff9800);
   color: white;
 }
 
@@ -191,45 +214,49 @@ a:hover {
 }
 
 a:visited {
-  color: rgb(112, 45, 20);
-}
-
-.himg {
-  text-decoration: none;
-}
-
-.himg:link {
-  color: black;
-}
-
-.himg:hover {
-  text-decoration: none;
-  cursor: text;
-}
-
-.himg:visited {
-  color: black;
+  color: #702d14;
 }
 
 .notfound {
-  background-color: black;
-  margin-top: 25dvh;
+  background: radial-gradient(circle at 24.1% 68.8%, #323232 0%, #000000 99.4%);
+  margin-top: 10dvh;
 }
 .notfound h1 {
-  color: white;
+  color: #f3eadb;
   font-size: 10vh;
 }
 .notfound h2 {
-  color: white;
+  color: #f3eadb;
   font-size: 5vh;
 }
 .notfound p {
-  color: white;
+  color: #f3eadb;
   font-size: 2vh;
 }
+.notfound a {
+  color: #f3eadb;
+}
 .notfound img {
-  width: 75dvw;
+  width: 50dvw;
   height: auto;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8deb7;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f5b657;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f8deb7;
 }
 
 @media screen and (max-width: 992px) {

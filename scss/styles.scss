@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 
+@import "var";
 @import "header";
+@import "body";
 @import "main";
 @import "form";
 @import "carousel";
 @import "footer";
 @import "a";
 @import "404";
+@import "scrollbar";
 @import "mediaquery";

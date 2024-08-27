@@ -1,20 +1,23 @@
 .notfound {
-        background-color: black;
-        margin-top: 25dvh;
+    background: radial-gradient(circle at 24.1% 68.8%, #323232 0%, #000000 99.4%);
+    margin-top: 10dvh;
         h1 {
-            color: white;
+            color: $site-white;
             font-size: 10vh;
         }
         h2 {
-            color: white;
+            color: $site-white;
             font-size: 5vh;
         }
         p {
-            color: white;
+            color: $site-white;
             font-size: 2vh;
         }
+        a {
+            color: $site-white;
+        }
         img {
-            width: 75dvw;
+            width: 50dvw;
             height: auto;
         }
     }
