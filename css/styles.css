@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: linear-gradient(to bottom, #F5EBDC, #facb85);
-}
-
 header {
   position: relative;
   z-index: 100;
@@ -210,6 +206,27 @@ a:visited {
 
 .himg:visited {
   color: black;
+}
+
+.notfound {
+  background-color: black;
+  margin-top: 25dvh;
+}
+.notfound h1 {
+  color: white;
+  font-size: 10vh;
+}
+.notfound h2 {
+  color: white;
+  font-size: 5vh;
+}
+.notfound p {
+  color: white;
+  font-size: 2vh;
+}
+.notfound img {
+  width: 75dvw;
+  height: auto;
 }
 
 @media screen and (max-width: 992px) {

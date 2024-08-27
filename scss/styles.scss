@@ -3,9 +3,6 @@
     padding:0;
     box-sizing: border-box;
 }
-body {
-    background-image: linear-gradient(to bottom, #F5EBDC,#facb85)
-}
 
 @import "header";
 @import "main";
@@ -13,4 +10,5 @@ body {
 @import "carousel";
 @import "footer";
 @import "a";
+@import "404";
 @import "mediaquery";
