@@ -67,15 +67,16 @@ main .coltex h2 {
 }
 main .coltex h3 {
   text-align: center;
-  font-size: 1.75rem;
-}
-main .coltex p {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(1.3rem + 0.6vw);
 }
 @media (min-width: 1200px) {
-  main .coltex p {
-    font-size: 1.5rem;
+  main .coltex h3 {
+    font-size: 1.75rem;
   }
+}
+main .coltex p {
+  font-size: 1rem;
+  text-align: justify;
 }
 main .coltex .ul1 {
   list-style: decimal;
@@ -87,13 +88,23 @@ main .coltex .ul1 li {
 main .coltex .ul2 {
   list-style: circle;
 }
-main .coltex img {
-  width: 25vw;
-  height: auto;
+main .colimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
 }
-main .coltex .imgserv {
+main .colimg .imgserv {
   width: 560px;
   height: 325px;
+}
+main .colimg2 img {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 383px;
+  height: 305px;
 }
 main .colemb .embed-responsive-item {
   margin-top: 25%;
@@ -321,26 +332,30 @@ a:visited {
   color: #702d14;
 }
 
-.notfound {
+html {
+  min-height: 100%;
+}
+html .notfound {
   background: radial-gradient(circle at 24.1% 68.8%, #323232 0%, #000000 99.4%);
   margin-top: 10dvh;
+  height: 100%;
 }
-.notfound h1 {
+html .notfound h1 {
   color: #f3eadb;
   font-size: 10vh;
 }
-.notfound h2 {
+html .notfound h2 {
   color: #f3eadb;
   font-size: 5vh;
 }
-.notfound p {
+html .notfound p {
   color: #f3eadb;
   font-size: 2vh;
 }
-.notfound a {
+html .notfound a {
   color: #f3eadb;
 }
-.notfound img {
+html .notfound img {
   width: 50dvw;
   height: auto;
 }
@@ -418,15 +433,36 @@ a:visited {
 }
 @media screen and (max-width: 430px) {
   main .coltex {
-    margin-top: 2.5%;
-    position: relative;
-    width: 50%;
+    margin-top: 5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+  }
+  main .colimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  main .colimg .imgserv {
+    width: 280px;
+    height: 162px;
+  }
+  main .colemb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   main .colemb .embed-responsive-item {
-    margin-top: 6%;
-    margin-left: 10%;
+    margin-top: 25%;
     width: 280px;
     height: 157px;
+  }
+  main .section {
+    margin-top: -20%;
+  }
+  main form {
+    width: 75%;
+    left: 15%;
   }
   footer .logo2 {
     height: 45px;

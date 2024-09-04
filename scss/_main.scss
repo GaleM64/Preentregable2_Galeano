@@ -10,10 +10,11 @@ main {
         }
         h3 {
             text-align: center;
-            font-size: 1.75rem;
+            @include font-size(1.75rem);
         }
         p {
-            @include font-size(1.50rem);
+            @include font-size(1rem);
+            text-align: justify;
         }
         .ul1 {
             list-style: decimal;
@@ -25,13 +26,25 @@ main {
         .ul2 {
             list-style: circle;
         }
-        img {
-            width: 25vw;
-            height: auto;
-        }
+    }
+    .colimg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
         .imgserv {
             width: 560px;
             height: 325px;
+        }
+    }
+    .colimg2 {
+        img {
+            margin-top: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 383px;
+            height: 305px;
         }
     }
     .colemb {

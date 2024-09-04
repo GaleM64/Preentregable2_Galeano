@@ -60,17 +60,36 @@
 @media screen and (max-width:430px) {
     main {
         .coltex {
-            margin-top: 2.5%;
-            position: relative;
-            width: 50%;
+            margin-top: 5%;
+            margin-right: 2.5%;
+            margin-left: 2.5%;
+        }
+        .colimg {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5%;
+            .imgserv {
+                width: 280px;
+                height: 162px;
+            }
         }
         .colemb {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             .embed-responsive-item {
-                margin-top: 6%;
-                margin-left: 10%;
+                margin-top: 25%;
                 width: 280px;
                 height: 157px;
             }
+        }
+        .section {
+            margin-top: -20%;
+        }
+        form {
+            width: 75%;
+            left: 15%;
         }
     }
     footer {
