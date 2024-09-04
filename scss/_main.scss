@@ -1,19 +1,19 @@
 main {
     position: relative;
-    .col {
-        font-size: 22px;
+    .coltex {
         margin-top: 10%;
         font-family: "Open Sans", sans-serif;
+        width: 100%;
         h2 {
             text-align: center;
-            font-size: 2.5rem;
+            @include font-size(2.5rem);
         }
         h3 {
             text-align: center;
             font-size: 1.75rem;
         }
         p {
-            font-size: 1.5rem;
+            @include font-size(1.50rem);
         }
         .ul1 {
             list-style: decimal;
@@ -33,7 +33,10 @@ main {
             width: 560px;
             height: 325px;
         }
+    }
+    .colemb {
         .embed-responsive-item {
+            margin-top: 25%;
             width: 560px;
             height: 315px;
         }

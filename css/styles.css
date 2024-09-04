@@ -51,41 +51,52 @@ header .nav-item {
 main {
   position: relative;
 }
-main .col {
-  font-size: 22px;
+main .coltex {
   margin-top: 10%;
   font-family: "Open Sans", sans-serif;
+  width: 100%;
 }
-main .col h2 {
+main .coltex h2 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: calc(1.375rem + 1.5vw);
 }
-main .col h3 {
+@media (min-width: 1200px) {
+  main .coltex h2 {
+    font-size: 2.5rem;
+  }
+}
+main .coltex h3 {
   text-align: center;
   font-size: 1.75rem;
 }
-main .col p {
-  font-size: 1.5rem;
+main .coltex p {
+  font-size: calc(1.275rem + 0.3vw);
 }
-main .col .ul1 {
+@media (min-width: 1200px) {
+  main .coltex p {
+    font-size: 1.5rem;
+  }
+}
+main .coltex .ul1 {
   list-style: decimal;
 }
-main .col .ul1 li {
+main .coltex .ul1 li {
   font-weight: 600;
   font-style: oblique;
 }
-main .col .ul2 {
+main .coltex .ul2 {
   list-style: circle;
 }
-main .col img {
+main .coltex img {
   width: 25vw;
   height: auto;
 }
-main .col .imgserv {
+main .coltex .imgserv {
   width: 560px;
   height: 325px;
 }
-main .col .embed-responsive-item {
+main .colemb .embed-responsive-item {
+  margin-top: 25%;
   width: 560px;
   height: 315px;
 }
@@ -277,7 +288,8 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-footer footer p {
+footer p {
+  font-size: 1rem;
   font-weight: bold;
   margin-top: 15px;
 }
@@ -379,15 +391,14 @@ a:visited {
     margin-left: -110px;
     top: 95%;
   }
-  col {
+  main .coltex {
     margin-top: 5%;
     position: relative;
-    width: 100%;
-    padding-top: 56.25%;
   }
-  .embed-responsive-item {
-    width: 405px;
-    height: 225px;
+  main .colemb .embed-responsive-item {
+    margin-top: 12.5%;
+    width: 421px;
+    height: 237px;
   }
   form {
     padding: 2.5rem;
@@ -403,6 +414,25 @@ a:visited {
   }
   footer .socialimg {
     margin-top: 15px;
+  }
+}
+@media screen and (max-width: 430px) {
+  main .coltex {
+    margin-top: 2.5%;
+    position: relative;
+    width: 50%;
+  }
+  main .colemb .embed-responsive-item {
+    margin-top: 6%;
+    margin-left: 10%;
+    width: 280px;
+    height: 157px;
+  }
+  footer .logo2 {
+    height: 45px;
+  }
+  footer .socialmediaul .socialimg {
+    height: 35px;
   }
 }
 

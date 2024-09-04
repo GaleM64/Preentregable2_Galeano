@@ -7,9 +7,11 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    footer p {
+    p {
+        @include font-size(1rem);
         font-weight: bold;
-        margin-top: 15px
+        margin-top: 15px;
+
     }
     .logo2 {
         height: 55px;

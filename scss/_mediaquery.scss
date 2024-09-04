@@ -26,15 +26,19 @@
             top: 95%;
         }
     }
-    col {
-        margin-top: 5%;
-        position: relative;
-        width: 100%;
-        padding-top: 56.25%;
-    }
-    .embed-responsive-item {
-        width: 405px;
-        height: 225px;
+    main {
+        .coltex {
+            margin-top: 5%;
+            position: relative;
+        }
+        .colemb {
+            .embed-responsive-item {
+                margin-top: 12.5%;
+                width: 421px;
+                height: 237px;
+            }
+        }
+
     }
     form {
         padding: 2.5rem;
@@ -49,6 +53,34 @@
         }
         .socialimg {
             margin-top: 15px;
+        }
+    }
+} 
+
+@media screen and (max-width:430px) {
+    main {
+        .coltex {
+            margin-top: 2.5%;
+            position: relative;
+            width: 50%;
+        }
+        .colemb {
+            .embed-responsive-item {
+                margin-top: 6%;
+                margin-left: 10%;
+                width: 280px;
+                height: 157px;
+            }
+        }
+    }
+    footer {
+        .logo2 {
+            height: 45px;
+        }
+        .socialmediaul {
+            .socialimg {
+                height: 35px;
+            }
         }
     }
 } 
