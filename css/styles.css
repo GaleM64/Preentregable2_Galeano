@@ -332,34 +332,6 @@ a:visited {
   color: #702d14;
 }
 
-html {
-  min-height: 100%;
-}
-html .notfound {
-  background: radial-gradient(circle at 24.1% 68.8%, #323232 0%, #000000 99.4%);
-  margin-top: 10dvh;
-  height: 100%;
-}
-html .notfound h1 {
-  color: #f3eadb;
-  font-size: 10vh;
-}
-html .notfound h2 {
-  color: #f3eadb;
-  font-size: 5vh;
-}
-html .notfound p {
-  color: #f3eadb;
-  font-size: 2vh;
-}
-html .notfound a {
-  color: #f3eadb;
-}
-html .notfound img {
-  width: 50dvw;
-  height: auto;
-}
-
 ::-webkit-scrollbar {
   width: 6px;
 }
